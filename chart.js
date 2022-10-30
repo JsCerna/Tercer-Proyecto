@@ -1,4 +1,4 @@
-const url = 'http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=0650f52a21ac91a06639d8c2e44e657f'
+const url = 'https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=0650f52a21ac91a06639d8c2e44e657f'
 
 const ctx = document.getElementById('AQgrafico');
 const myChart = new Chart(ctx, {
