@@ -6,7 +6,7 @@ export async function pedirDatos() {
     let lon = respuesta1.data.coord.lon
     let lat = respuesta1.data.coord.lat
 
-    let respuesta2 = await axios.get(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=0650f52a21ac91a06639d8c2e44e657f`
+    let respuesta2 = await axios.get(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=0650f52a21ac91a06639d8c2e44e657f`
     );
     console.log(respuesta2.data.list[0].components)
     let aqi = respuesta2.data.list[0].main.aqi
