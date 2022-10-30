@@ -94,7 +94,7 @@ export async function pedirDatos() {
     </tbody>
   </table>`
     
-  var ctx2 = document.getElementById('variables').getContext('2d');
+  var ctx2 = document.getElementById('variables');
   if (window.grafica) {
     window.grafica.clear();
     window.grafica.destroy();
